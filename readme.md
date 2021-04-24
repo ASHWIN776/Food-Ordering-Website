@@ -1,5 +1,4 @@
 # Food Ordering Website
----
 
 Site can be accessed here : https://ashwin776.github.io/Food-Ordering-Website/
 
