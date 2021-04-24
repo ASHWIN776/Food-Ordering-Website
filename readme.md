@@ -1,6 +1,6 @@
 # Food Ordering Website
-## [X] To make the website
-## [] To make it Responsive
+[X] ## To make the website
+[] ## To make it Responsive
 ---
 
 Site can be accessed here : https://ashwin776.github.io/Food-Ordering-Website/
