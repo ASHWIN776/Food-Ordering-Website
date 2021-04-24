@@ -226,3 +226,24 @@ form button{
 form button:hover{
     cursor: pointer;
 }
+
+
+footer{
+    height: 20rem;
+    background-color: #edebeb;
+    font-size: 1.2rem;
+}
+
+footer div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    margin: 0;
+    width: 40rem;
+    text-align: center;
+}
