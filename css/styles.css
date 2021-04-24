@@ -112,7 +112,7 @@ nav a:hover{
 
 #clients{
     position: relative;
-    border: 2px solid;
+    border: 2px solid transparent;
 }
 
 #clients::before{
@@ -122,14 +122,17 @@ nav a:hover{
     position: absolute;
     background-image: url('../img/bg.jpg');
     background-size: cover;
+    background-attachment: fixed;
     z-index: -1;
     opacity: 0.4;
 }
 
 #clients h2, #clients #client-container{
     text-align: center;
+    margin: 2rem 0;
 }
 
 #clients img{
     margin: 0 1rem;
 }
+
