@@ -109,3 +109,27 @@ nav a:hover{
     padding: 0 0.5rem;
     line-height: 1.5rem;
 }
+
+#clients{
+    position: relative;
+    border: 2px solid;
+}
+
+#clients::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients h2, #clients #client-container{
+    text-align: center;
+}
+
+#clients img{
+    margin: 0 1rem;
+}
