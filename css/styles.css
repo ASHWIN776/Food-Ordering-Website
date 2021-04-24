@@ -84,3 +84,28 @@ nav a:hover{
     background-color: white;
     color: #704E45;
 }
+
+#services{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item{
+    flex-basis: 25rem;
+    margin: 0 1rem;
+    border: 3px solid #ed4c4c;
+    background-color: rgb(232 205 203);
+    border-radius: 10px;
+}
+
+.service-item p.content{
+    margin: 0;
+    padding: 0 0.5rem;
+    line-height: 1.5rem;
+}
